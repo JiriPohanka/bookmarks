@@ -1,0 +1,16 @@
+.item-wrap {
+    padding:0.25rem;
+}
+  
+.padding-05rem {
+    padding: 0.5rem;
+    transition: border 250ms ease-out !important;
+}
+  
+.hover-box:hover {
+    border: 1px solid rgba(0, 0, 0, 0.377);
+}
+
+.hover-box.active-box {
+    border: 1px solid blue;
+}

@@ -1,0 +1,8 @@
+.control-buttons {
+    margin-top: auto;
+    display: flex;
+    align-items: flex-start;
+    padding: 0.25rem 1rem 0rem 1rem;
+  }
+
+  

@@ -1,0 +1,60 @@
+.drop-overlay-wrap {
+    background-color: whitesmoke;
+    opacity: 0.85;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .loader {
+    border: 16px solid #5ddfff; /* Light grey */
+    border-top: 16px solid #f14688; /* Blue */
+    border-left: 16px solid rgb(87, 247, 185);
+    border-right: 16px solid rgb(255, 187, 85);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .cancel-area {
+    background-color: rgba(124, 124, 124, 0);
+    position: relative;
+    top: 20%;
+    left: 50%;
+    width: 90px;
+    height: 90px;
+    margin-left: -50px;
+    z-index: 3;
+    border-radius: 50%;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 200ms ease-in;
+  }
+  
+  .cancel-area-active{
+    background-color: rgba(124, 124, 124, 0.336);
+  }
+
+  .block-icon {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .block-icon-overlay {
+    position: absolute;
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
